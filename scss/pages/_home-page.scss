@@ -1,0 +1,22 @@
+// Home Page SCSS
+
+#home-page {
+
+	.hero-banner {
+		background: url(img/spa_banner_img);
+	}
+
+}// #home-page
+
+#home-page h1 {
+	color: red;
+	font-size: 1.5em;
+}
+
+#home-page {
+	.thumbnail-pics {
+		.thumbnail{
+			padding: 5px + 5px + 5px; // operator
+		}
+	}
+}

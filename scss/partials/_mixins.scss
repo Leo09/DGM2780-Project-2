@@ -1,0 +1,19 @@
+// Mixin
+
+//@include clearfix;
+
+@mixin clearfix {
+
+	&:after{
+		content: '';
+		clear: both;
+		display: table;
+	}
+}
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
